@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas 2 IT INCUBATION</title>
+    </head>
+    <style>
+        div.box {
+            width: 400px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+        h2.judul {
+            display: inline;
+        }
+        img {
+            width: 80px;
+            position: absolute;
+            left: 410px;
+            top: 60px;
+        }
+    </style>
+    <body>
+        <div class="box">
+            <form action="">
+                <h2 class="judul">Form Komunitas Weboender</h2>
+                <img src="web.jpg" alt="asda">
+                <br><br>
+                <label for="nama">Nama : </label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="password">Password : </label>
+                <input type="password"><br>
+                <i><mark>Password adalah NIM anda</mark></i>
+                <br>
+                <br>
+                <label for="">Pilih Bagian :</label>
+                <select name="bagian" id="a">
+                    <option name="front" value="frontend" id="frontEnd">Frontend</option>
+                    <option name="back" value="backend" id="backEnd">Backend</option>
+                </select>
+                <br><br>
+                <label for="">Pilih Jenis Kelamin :</label>
+                <br>
+                <input type="checkbox" name="laki" value="laki-laki">Laki - laki
+                <input type="checkbox" name="perempuan" value="perempuan">Perempuan
+                <br>
+                <p>Hal yang dipelajari di Frontend :</p>
+                <ol>
+                    <li>Desain UI/UX</li>
+                    <li>HTML dan CSS</li>
+                    <li>Framework Bootstrap</li>
+                </ol>
+                <p>Hal yang dipelajari di Backend :</p>
+                <ul>
+                    <li>HTML dan PHP</li>
+                    <li>Database MySQL</li>
+                    <li>CRUD</li>
+                </ul>
+                <label for="">Pernyataan tidak dapat diubah, Sudah yakin ?</label>
+                <br>
+                <input type="radio">ya
+                <input type="radio">tidak
+                <br><br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </body>
+</html>
